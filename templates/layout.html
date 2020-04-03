@@ -2,17 +2,21 @@
 <!DOCTYPE html>
 <html>
   <head>
-      <title>Flask App</title>
+      <title>PythonSlack</title>
       <link rel="stylesheet" href="{{url_for('static',filename='css/main.css')}}">
+      <link href='https://fonts.googleapis.com/css?family=Audiowide' rel='stylesheet'>
   </head>
   <body>
     <header>
       <div class="container">
-        <h1 class="logo">DrsuperMario</h1>
+        <h1 class="logo">"I know what I’m doing"</h1>
+          <p class="quote">Fox Mulder (David Duchovny) The X-Files, Season 10: My Struggle</p>
         <strong><nav>
           <ul class="menu">
             <li><a href="{{ url_for('home') }}">Home</a></li>
-            <li><a href="{{ url_for('about') }}">About</a></li>
+            <li><a href="{{ url_for('about') }}">About Me</a></li>
+            <li><a href="{{ url_for('portfolio') }}">Portfolio</a></li>
+            <li><a href="{{ url_for('social') }}">Social</a></li>
           </ul>
         </nav></strong>
       </div>

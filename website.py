@@ -17,6 +17,14 @@ def about():
     return render_template("about.html")
 #teine leht
 
+@app.route('/portfolio/')
+def portfolio():
+    return render_template("portfolio.html")
+
+@app.route('/social/')
+def social():
+    return render_template("social.html")
+
 if __name__ =="__main__":
     app.run(debug=True)
 #kontrollin kas nimi on võrdne mainiga ja käivitan skripti

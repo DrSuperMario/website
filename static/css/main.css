@@ -1,8 +1,9 @@
 body {
     margin: 0;
     padding: 0;
-    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-    color: #060;
+    font-family: 'Audiowide';
+    color: #dbd8e3;
+    background-color: #696969 ;
   }
   
   /*
@@ -10,23 +11,42 @@ body {
    */
   
   header {
-    background-color: #DFB887;
-    height: 35px;
+    background: url(head.jpg);
+    height: 50px;
     width: 100%;
-    opacity: .9;
+    opacity: 0.8;
     margin-bottom: 10px;
   }
   
   header h1.logo {
     margin: 0;
+    margin-top: 10px;
     font-size: 1.7em;
-    color: #fff;
+    color: #dbd8e3 ;
+    text-transform: uppercase;
+    float: left;
+  }
+
+  header p.quote {
+    margin: 0;
+    margin-top: 35px;
+    font-size: 0.5em;
+    color: #dbd8e3 ;
+    text-transform: uppercase;
+    float: left;
+  }
+
+  header p.quote2 {
+    margin: 0;
+    margin-top: 35px;
+    font-size: 0.5em;
+    color: #000000 ;
     text-transform: uppercase;
     float: left;
   }
   
   header h1.logo:hover {
-    color: #fff;
+    color: #dbd8e3;
     text-decoration: none;
   }
   
@@ -37,11 +57,12 @@ body {
   .container {
     width: 1200px;
     margin: 0 auto;
+    background-color: #696969;
   }
   
   div.home {
     padding: 10px 0 30px 0;
-    background-color: #E6E6FA;
+    background-color: #696969;
     -webkit-border-radius: 6px;
        -moz-border-radius: 6px;
             border-radius: 6px;
@@ -49,7 +70,23 @@ body {
   
   div.about {
     padding: 10px 0 30px 0;
-    background-color: #E6E6FA;
+    background-color: #696969;
+    -webkit-border-radius: 6px;
+       -moz-border-radius: 6px;
+            border-radius: 6px;
+  }
+
+  div.portfolio {
+    padding: 10px 0 30px 0;
+    background-color: #696969;
+    -webkit-border-radius: 6px;
+       -moz-border-radius: 6px;
+            border-radius: 6px;
+  }
+
+  div.social {
+    padding: 10px 0 30px 0;
+    background-color: #696969;
     -webkit-border-radius: 6px;
        -moz-border-radius: 6px;
             border-radius: 6px;
@@ -73,7 +110,7 @@ body {
   
   .menu {
     float: right;
-    margin-top: 8px;
+    margin-top: 15px;
   }
   
   .menu li {
@@ -85,6 +122,8 @@ body {
   }
   
   .menu li a {
-    color: #444;
+    color: #dbd8e3;
     text-decoration: none;
+    text-shadow: 3px 3px #000000;
+
   }
