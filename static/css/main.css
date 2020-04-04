@@ -2,8 +2,8 @@ body {
     margin: 0;
     padding: 0;
     font-family: 'Audiowide';
-    color: #dbd8e3;
-    background-color: #696969 ;
+    color: #000000;
+    background-color: #EAEDED ;
   }
   
   /*
@@ -11,8 +11,8 @@ body {
    */
   
   header {
-    background: url(head.jpg);
-    height: 50px;
+    background-color: #F2F4F4;
+    height: 60px;
     width: 100%;
     opacity: 0.8;
     margin-bottom: 10px;
@@ -22,7 +22,7 @@ body {
     margin: 0;
     margin-top: 10px;
     font-size: 1.7em;
-    color: #dbd8e3 ;
+    color: #000000 ;
     text-transform: uppercase;
     float: left;
   }
@@ -31,7 +31,7 @@ body {
     margin: 0;
     margin-top: 35px;
     font-size: 0.5em;
-    color: #dbd8e3 ;
+    color: #000000 ;
     text-transform: uppercase;
     float: left;
   }
@@ -46,7 +46,7 @@ body {
   }
   
   header h1.logo:hover {
-    color: #dbd8e3;
+    color: #000000;
     text-decoration: none;
   }
   
@@ -57,12 +57,12 @@ body {
   .container {
     width: 1200px;
     margin: 0 auto;
-    background-color: #696969;
+    background-color: #EAEDED;
   }
   
   div.home {
     padding: 10px 0 30px 0;
-    background-color: #696969;
+    background-color: #EAEDED;
     -webkit-border-radius: 6px;
        -moz-border-radius: 6px;
             border-radius: 6px;
@@ -70,7 +70,7 @@ body {
   
   div.about {
     padding: 10px 0 30px 0;
-    background-color: #696969;
+    background-color: #EAEDED;
     -webkit-border-radius: 6px;
        -moz-border-radius: 6px;
             border-radius: 6px;
@@ -78,7 +78,7 @@ body {
 
   div.portfolio {
     padding: 10px 0 30px 0;
-    background-color: #696969;
+    background-color: #EAEDED;
     -webkit-border-radius: 6px;
        -moz-border-radius: 6px;
             border-radius: 6px;
@@ -86,26 +86,26 @@ body {
 
   div.social {
     padding: 10px 0 30px 0;
-    background-color: #696969;
+    background-color: #EAEDED;
     -webkit-border-radius: 6px;
        -moz-border-radius: 6px;
             border-radius: 6px;
   }
   
   h2 {
-    font-size: 3em;
+    font-size: 4em;
     margin-top: 40px;
-    text-align: center;
+    text-align: left;
     letter-spacing: -2px;
   }
   
   h3 {
-    font-size: 1.7em;
+    font-size: 2.5em;
     font-weight: 100;
     margin-top: 30px;
     text-align: center;
     letter-spacing: -1px;
-    color: #999;
+    color: #404040;
   }
   
   .menu {
@@ -118,12 +118,13 @@ body {
   }
   
   .menu li + li {
-    margin-left: 35px;
+    margin-left: 15px;
+    text-align: right;
   }
   
   .menu li a {
-    color: #dbd8e3;
+    color: #303030;
     text-decoration: none;
-    text-shadow: 3px 3px #000000;
+    text-shadow: 3px 3px #EAEDED;
 
   }
