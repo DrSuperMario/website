@@ -118,6 +118,14 @@ body {
             border-radius: 6px;
   }
 
+  .social-grid {
+    display: grid;
+    grid-template-columns: auto 1000px;
+    grid-gap: 4em;
+    align-items: center;
+  }
+
+
   .portfolio-grid {
     display: grid;
     grid-template-columns: auto auto auto;
