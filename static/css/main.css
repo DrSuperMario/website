@@ -61,12 +61,23 @@ body {
   }
   
   div.home {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-gap: 70px;
     padding: 10px 0 30px 0;
     background-color: #EAEDED;
     -webkit-border-radius: 6px;
        -moz-border-radius: 6px;
             border-radius: 6px;
   }
+
+
+  div.grid1 {
+    grid-row-start: 1;
+    padding: 10px;
+
+  }
+
   
   div.about {
     padding: 10px 0 30px 0;
@@ -74,6 +85,21 @@ body {
     -webkit-border-radius: 6px;
        -moz-border-radius: 6px;
             border-radius: 6px;
+  }
+
+  .about-grid {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-auto-rows: minmax(200px, auto);
+    grid-gap: 6em;
+
+  }
+
+  .about-grid-module {
+    display: flex;
+    background: #EAEDED;
+    align-items: center;
+
   }
 
   div.portfolio {
@@ -90,6 +116,22 @@ body {
     -webkit-border-radius: 6px;
        -moz-border-radius: 6px;
             border-radius: 6px;
+  }
+
+  .portfolio-grid {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-auto-rows: minmax(200px, auto);
+    grid-gap: 2em;
+
+  }
+
+  .portfolio-grid-module {
+    display: grid;
+    background: #F2F4F4;
+    align-items: flex-start;
+    justify-items: center;
+
   }
   
   h2 {
