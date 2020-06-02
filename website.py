@@ -1,5 +1,5 @@
-from flask import Flask, render_template, jsonify
-import requests as req
+from flask import Flask, render_template
+#import requests as req
 #impordi flaski classi objekti flaski raamatust ja html renderdaja
 
 app=Flask(__name__)
@@ -23,10 +23,12 @@ def portfolio():
 def social():
     return render_template("social.html")
 
+'''
 @app.route('/fcssignals', methods = ['GET'])
 def fcssignals():
     data = req.get("http://127.0.0.1:5000/markets")
     return data.content
+'''
 
 if __name__ =="__main__":
     app.run(debug=True, port=5050)
