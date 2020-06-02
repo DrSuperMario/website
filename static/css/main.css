@@ -120,9 +120,16 @@ body {
 
   .social-grid {
     display: grid;
-    grid-template-columns: auto 1000px;
-    grid-gap: 4em;
+    grid-template-columns: auto auto auto auto;
+    grid-gap: 2em;
     align-items: center;
+    grid-template-rows: minmax(400px, auto);
+  }
+  
+  .social-grid-module {
+    display: grid;
+    align-items: center;
+    justify-items: center;
   }
 
 
