@@ -1,0 +1,13 @@
+{%extends "layout.html"%}
+|{%block content%}
+<div class="home">
+    <div class="grid1">
+        <h2>“Everybody has </h2><h3>to start</h3>
+        <h2>from somwhere"</h2><h2>....</h2>
+    </div>  
+    <div class="grid1">
+        <img src="https://pythonslack.com/pic/hand_arrow.png"ˇwidth="200" height="300" style="float: right;">
+    </div>
+     
+</div>
+{%endblock%}
