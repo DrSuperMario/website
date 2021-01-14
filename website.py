@@ -23,6 +23,10 @@ def portfolio():
 def social():
     return render_template("social.html")
 
+@app.route('/cv')
+def cv():
+    return render_template("cv.html")
+
 '''
 @app.route('/fcssignals', methods = ['GET'])
 def fcssignals():
