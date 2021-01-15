@@ -1,10 +1,11 @@
+
 {%extends "layout.html"%}
 {%block content%}
 <div class="about">
     <h1>About me</h1>
     <div class="about-grid">
         <div class="about-grid-module">
-            <img src="https://pythonslack.com/pic/5G5fz357OBPQ.jpg" alt="face" width="200" height="300">
+            <img src="{{url_for('static',filename='pic/5G5fz357OBPQ.jpg')}}" alt="face" width="200" height="300">
         </div>
         <div class="about-grid-module">
             <h1>Hi! My name is Mario and I am an aspiring Python developer If you are looking for someone to help you with your project or develop something from scratch then I am your man.
